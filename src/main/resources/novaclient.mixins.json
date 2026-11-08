@@ -1,0 +1,15 @@
+{
+  "required": false,
+  "package": "dev.nova.client.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "injectors": {
+    "defaultRequire": 0
+  },
+  "mixins": [],
+  "client": [
+    "BlockEntityRenderDispatcherMixin",
+    "BlockMixin",
+    "BlockStateBaseMixin",
+    "CameraMixin"
+  ]
+}
